@@ -27,7 +27,7 @@ cp -r bin-launcher/* ~/.local/share/gnome-shell/extensions/my-bin-launcher@paul.
 Restart GNOME Shell:  
 In X11:  
 ```  
-Press Alt+F2, type r, and press Enter  
+Press Alt+F2, type r, and press Enter
 ```  
 In Wayland:  
 Log out and log back in
