@@ -7,7 +7,7 @@ A simple GNOME Shell extension that adds a panel icon to launch scripts from `~/
 ## 🔧 Features
 
 - Adds an icon to your top panel
-- Shows a dropdown list of scripts in `~/bin/launch/`
+- Shows a dropdown list of scripts in `~/bin/launch/` (I recommend using symlinks in that folder)
 - Clicking an entry launches the script in a detached terminal (`kitty --detach`)
 - Displays a placeholder if the folder is empty
 
