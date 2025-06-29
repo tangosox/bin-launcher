@@ -13,6 +13,30 @@ A simple GNOME Shell extension that adds a panel icon to launch scripts from `~/
 
 ---
 
+## 📦 Installation
+
+Clone this repository:
+    ```
+    git clone https://github.com/tangosox/bin-launcher.git
+    ```
+Copy the files to your GNOME extensions directory:
+    ```
+    mkdir -p ~/.local/share/gnome-shell/extensions/my-bin-launcher@paul.local
+    cp -r bin-launcher/* ~/.local/share/gnome-shell/extensions/my-bin-launcher@paul.local
+    ```
+Restart GNOME Shell:  
+In X11:
+    ```
+    Press Alt+F2, type r, and press Enter
+    ```
+In Wayland:  
+Log out and log back in
+                    
+Enable the extension:
+    ```
+    gnome-extensions enable my-bin-launcher@paul.local
+    ```
+
 ## 📂 Folder Naming for GNOME
 
 GNOME requires the extension folder name to match the `uuid` in `metadata.json`.
@@ -46,29 +70,7 @@ GLib.spawn_command_line_async(`alacritty -e "${path}"`);
 ```
 Make sure the terminal you use supports -e or a similar flag for executing commands.
 
-## 📦 Installation
 
-Clone this repository:
-```
-git clone https://github.com/tangosox/bin-launcher.git
-```
-Copy the files to your GNOME extensions directory:
-```
-mkdir -p ~/.local/share/gnome-shell/extensions/my-bin-launcher@paul.local
-cp -r bin-launcher/* ~/.local/share/gnome-shell/extensions/my-bin-launcher@paul.local
-```
-Restart GNOME Shell:  
-In X11:
-```
-Press Alt+F2, type r, and press Enter
-```
-In Wayland:  
-Log out and log back in
-
-Enable the extension:
-```
-gnome-extensions enable my-bin-launcher@paul.local
-```
 ## ✅ Requirements
 
 GNOME Shell 45–48
