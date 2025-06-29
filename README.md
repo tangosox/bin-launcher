@@ -45,7 +45,8 @@ GLib.spawn_command_line_async(`foot -e "${path}"`);
 GLib.spawn_command_line_async(`alacritty -e "${path}"`);
 ```
 Make sure the terminal you use supports -e or a similar flag for executing commands.
-📦 Installation
+
+## 📦 Installation
 
 Clone this repository:
 ```
