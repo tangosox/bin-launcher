@@ -58,9 +58,12 @@ mkdir -p ~/.local/share/gnome-shell/extensions/my-bin-launcher@paul.local
 cp -r bin-launcher/* ~/.local/share/gnome-shell/extensions/my-bin-launcher@paul.local
 ```
 Restart GNOME Shell:
-
+In X11:
+```
 Press <kbd>Alt</kbd>+<kbd>F2</kbd>, type r, and press <kbd>Enter</kbd>
-Or log out and log back in
+```
+In Wayland:
+Log out and log back in
 
 Enable the extension:
 ```
