@@ -13,20 +13,21 @@ A simple GNOME Shell extension that adds a panel icon to launch scripts from `~/
 
 ---
 
-## 📂 Folder Naming for GNOME
+## 📂 Folder Naming for GNOME and changing default terminal
 
 GNOME requires the extension folder name to match the `uuid` in `metadata.json`.
 
-## Using and modifying:
-    ```json This project uses:
+This project uses:
+    ```
     "uuid": "my-bin-launcher@paul.local"
     ```
-    So your local folder must be named:
+So your local folder must be named:
 ```
 ~/.local/share/gnome-shell/extensions/my-bin-launcher@paul.local/
 ```
 If you rename the extension or change the UUID, make sure the folder name and metadata.json match.
-🖥️ Changing the Terminal
+
+## 🖥️ Changing the Terminal
 
 By default, this extension uses:
 ```
