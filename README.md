@@ -50,7 +50,7 @@ Make sure the terminal you use supports -e or a similar flag for executing comma
 
 Clone this repository:
 ```
-git clone https://github.com/YOUR_USERNAME/bin-launcher.git
+git clone https://github.com/tangosox/bin-launcher.git
 ```
 Copy the files to your GNOME extensions directory:
 ```
