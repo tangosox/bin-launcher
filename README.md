@@ -17,7 +17,7 @@ A simple GNOME Shell extension that adds a panel icon to launch scripts from `~/
 
 Clone this repository:  
 ```
-git clone https://github.com/tangosox/bin-launcher.git  
+git clone https://github.com/tangosox/bin-launcher.git
 ```  
 Copy the files to your GNOME extensions directory:  
 ```
