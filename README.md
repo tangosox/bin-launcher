@@ -15,20 +15,20 @@ A simple GNOME Shell extension that adds a panel icon to launch scripts from `~/
 
 ## 📦 Installation
 
-Clone this repository:
+Clone this repository:  
     ```
     git clone https://github.com/tangosox/bin-launcher.git
     ```
-Copy the files to your GNOME extensions directory:
+Copy the files to your GNOME extensions directory:  
     ```
     mkdir -p ~/.local/share/gnome-shell/extensions/my-bin-launcher@paul.local
     cp -r bin-launcher/* ~/.local/share/gnome-shell/extensions/my-bin-launcher@paul.local
     ```
 Restart GNOME Shell:  
-In X11:
-    ```
-    Press Alt+F2, type r, and press Enter
-    ```
+In X11:  
+    ```  
+    Press Alt+F2, type r, and press Enter  
+    ```  
 In Wayland:  
 Log out and log back in
                     
