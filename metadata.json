@@ -1,0 +1,8 @@
+{
+  "uuid": "my-bin-launcher@paul.local",
+  "name": "Bin Launcher",
+  "description": "Run scripts from your ~/bin folder",
+  "version": 1,
+  "shell-version": ["45", "46", "47", "48"],
+  "module": "extension.js"
+}
