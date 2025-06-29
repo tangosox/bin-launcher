@@ -13,7 +13,7 @@ A simple GNOME Shell extension that adds a panel icon to launch scripts from `~/
 
 ---
 
-## 📂 Folder Naming for GNOME and changing default terminal
+## 📂 Folder Naming for GNOME
 
 GNOME requires the extension folder name to match the `uuid` in `metadata.json`.
 
