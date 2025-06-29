@@ -75,5 +75,4 @@ GNOME Shell 45–48
 
 kitty (or any terminal you configure it to use)
 
-Executable scripts in ~/bin/launch/
-(Make them executable with chmod +x)
+Executable scripts or symlinks to executable scripts in ~/bin/launch/
