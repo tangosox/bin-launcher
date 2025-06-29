@@ -19,7 +19,7 @@ GNOME requires the extension folder name to match the `uuid` in `metadata.json`.
 
 ## This project uses: asdf
     
-    json
+    ```json
     "uuid": "my-bin-launcher@paul.local"
     
     So your local folder must be named:
